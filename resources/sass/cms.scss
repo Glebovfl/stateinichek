@@ -1,0 +1,19 @@
+// Import Bulma's core
+
+
+// Set your colors
+$primary: #e37d9b;
+$primary-light: findLightColor($primary);
+$primary-dark: findDarkColor($primary);
+$primary-invert: findColorInvert($primary);
+
+
+// Lists and maps
+$custom-colors: null !default;
+$custom-shades: null !default;
+
+// Setup $colors to use as bulma classes (e.g. 'is-twitter')
+
+@import "helpers";
+@import "~bulma";
+@import "~buefy/src/scss/buefy";

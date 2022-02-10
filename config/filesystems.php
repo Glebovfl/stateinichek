@@ -65,6 +65,21 @@ return [
             'endpoint' => env('AWS_ENDPOINT'),
         ],
 
+        'wysiwyg'=> [
+            'driver' => 'local',
+            'root' => storage_path('app/public/wysiwyg'),
+            'url' => env('APP_URL').'/storage/wysiwyg',
+            'visibility' => 'public',
+        ],
+
+        'upload'=> [
+            'driver' => 'local',
+            'root' => storage_path('app/public/upload'),
+            'url' => env('APP_URL').'/storage/upload',
+            'visibility' => 'public',
+        ],
+
+
     ],
 
     /*
